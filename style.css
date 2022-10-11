@@ -1,0 +1,58 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e9ecef;
+}
+
+/* header */
+
+.fa-napster {
+  font-size: 40px;
+}
+
+.brand-name {
+  font-family: "Comforter Brush", cursive;
+  font-size: 30px;
+}
+
+/* main */
+
+.product-list li {
+  list-style: none;
+}
+
+/* footer */
+
+.social i {
+  font-size: 25px;
+  color: white;
+}
+
+.fa-facebook:hover {
+  color: #39569c;
+}
+
+.fa-twitter:hover {
+  color: #00acee;
+}
+
+.fa-youtube:hover {
+  color: #b2071d;
+}
+
+.fa-instagram:hover {
+  color: #3f729b;
+}
+
+/* products */
+
+.product-card {
+  height: 405px;
+}
+
+@media (max-width: 576px) {
+  .product-card {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+  }
+}
